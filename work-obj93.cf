@@ -1,0 +1,10 @@
+v 4
+file . "half_adder.vhdl" "ae3292c4392b0302b9d01548428700820a5a13bc" "20221117142017.193":
+  entity half_adder at 1( 0) + 0 on 149;
+  architecture main of half_adder at 11( 148) + 0 on 150;
+file . "testbench.vhdl" "d90c5d0c5acfb6a3766f7acd0fe676ed67c2ad11" "20221117142017.200":
+  entity test at 1( 0) + 0 on 151;
+  architecture bench of test at 7( 65) + 0 on 152;
+file . "full_adder.vhdl" "939264012218f907536a7be6ddbc32168dcf45f3" "20221117142017.186":
+  entity fulladder at 1( 0) + 0 on 147;
+  architecture main of fulladder at 11( 139) + 0 on 148;

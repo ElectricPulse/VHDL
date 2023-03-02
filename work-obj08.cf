@@ -1,0 +1,4 @@
+v 4
+file . "half_adder.vhdl" "ae3292c4392b0302b9d01548428700820a5a13bc" "20221114193506.914":
+  entity half_adder at 1( 0) + 0 on 11;
+  architecture main of half_adder at 11( 148) + 0 on 12;

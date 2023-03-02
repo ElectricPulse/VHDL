@@ -1,0 +1,24 @@
+v 4
+file . "fourbit_mux.vhd" "9aef9e7f2ea252b7510dee50d1722029d4362af2" "20221118125637.757":
+  entity onebit_mux at 5( 39) + 0 on 279;
+  architecture main of onebit_mux at 15( 175) + 0 on 280;
+  entity fourbit_mux at 25( 319) + 0 on 281;
+  architecture main of fourbit_mux at 38( 549) + 0 on 282;
+file . "not.vhd" "146f55647c3233876a69ea1ad4454bc756a1c423" "20221118125637.776":
+  entity fourbit_not at 1( 0) + 0 on 287;
+  architecture main of fourbit_not at 11( 179) + 0 on 288;
+file . "testbench.vhd" "c68f6a158ea1430269ce03b67c42770a25f6af57" "20221118125637.783":
+  entity test at 1( 0) + 0 on 289;
+  architecture bench of test at 9( 74) + 0 on 290;
+file . "full_adder.vhd" "a4fb6cd22fde052797b2266548c7a9c5fee9efed" "20221118125637.764":
+  entity full_adder at 1( 0) + 0 on 283;
+  architecture main of full_adder at 11( 142) + 0 on 284;
+file . "fourbit_adder.vhd" "c8f74643a3293b8dcd9f93164aeda11b1aece1c6" "20221118115044.859":
+  entity fourbit_adder at 1( 0) + 0 on 11;
+  architecture main of fourbit_adder at 13( 220) + 0 on 12;
+file . "half_adder.vhd" "080995036fb287b8e7a6192a13ba1f79dc6999fb" "20221118125637.770":
+  entity half_adder at 1( 0) + 0 on 285;
+  architecture main of half_adder at 11( 137) + 0 on 286;
+file . "alu.vhd" "a8c666d229987de8d82df6d9bd8501bd95156917" "20221118125637.750":
+  entity alu at 1( 0) + 0 on 277;
+  architecture main of alu at 13( 210) + 0 on 278;
